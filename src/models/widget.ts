@@ -1,7 +1,7 @@
 import {Entity, PrimaryGeneratedColumn, Column} from 'typeorm';
 
 @Entity()
-export class Widget {
+export default class Widget {
 
     @PrimaryGeneratedColumn()
     id!: number;
