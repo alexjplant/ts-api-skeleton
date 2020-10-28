@@ -27,4 +27,4 @@ app.get('/', async (req, res) => {
     res.status(200).send();
 });
 
-app.listen(port);
+const server = app.listen(port);
